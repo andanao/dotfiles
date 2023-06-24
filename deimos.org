@@ -1,0 +1,15 @@
+
+#+title:Deimos emacs config
+* Quick links
+#+begin_src emacs-lisp
+(ads/leader-keys
+   "ew" '(lambda () (interactive)
+	   (find-file "/home/adrian/.dotfiles/deimos.org")
+           :wk "Work Config")
+
+  "eh" '(lambda () (interactive)
+	   (find-file "/home/adrian/.dotfiles/.config/hypr/hyprland.conf")
+           :wk "Hypr Config")
+   )
+
+#+end_src

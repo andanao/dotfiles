@@ -4,3 +4,4 @@
 /.config/dconf/
 /.config/autostart/
 /.config/mimeapps.list
+/deimos.el

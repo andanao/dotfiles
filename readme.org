@@ -1,0 +1,4 @@
+#+title:Deimos config
+An arch configuration running on a 2021 Dell XPS 15
+
+I am using ~stow~ to keep track of these file along with ~org-babel-tangle~ to create the files I need

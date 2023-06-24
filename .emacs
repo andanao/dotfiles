@@ -9,10 +9,12 @@
 
 (setq ads/user-dir-config "~/.emacs")
 
-(setq ads/computer-id "xps-ubuntu")
+(setq ads/computer-id "deimos")
 
 (setq debug-on-error t)
+
 (load-file (concat ads/user-dir-emacs "init.el"))
+(org-babel-load-file "/home/adrian/.dotfiles/deimos.org")
 
 (setq debug-on-error nil)
 (custom-set-variables
