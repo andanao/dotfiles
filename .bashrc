@@ -9,5 +9,6 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
+. ~/.config/zsh/deimos.sh
 . ~/.config/aliases/general.sh
 . ~/.config/aliases/arch.sh
