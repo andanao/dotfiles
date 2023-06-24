@@ -1,1 +1,6 @@
 .config/BraveSoftware/*
+/.config/skypeforlinux/
+/.config/pulse/
+/.config/dconf/
+/.config/autostart/
+/.config/mimeapps.list
