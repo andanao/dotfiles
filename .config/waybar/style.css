@@ -1,7 +1,7 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    font-size: 11px;
+    font-family: Fira Code Nerd Font, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
 }
 
 window#waybar {
@@ -55,7 +55,7 @@ button:hover {
 }
 
 #workspaces button:hover {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(90, 90, 90, 0.9);
 }
 
 #workspaces button.focused {
@@ -90,6 +90,8 @@ button:hover {
 #mpd {
     padding: 0 10px;
     color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.2);
+
 }
 
 #window,
@@ -108,12 +110,12 @@ button:hover {
 }
 
 #clock {
-    background-color: #64727D;
+    /* background-color: #64727D; */
 }
 
 #battery {
-    background-color: #ffffff;
-    color: #000000;
+    /* background-color: #ffffff; */
+    /* color: #000000; */
 }
 
 #battery.charging, #battery.plugged {
@@ -143,24 +145,24 @@ label:focus {
 }
 
 #cpu {
-    background-color: #2ecc71;
-    color: #000000;
+    /* background-color: #2ecc71; */
+    /* color: #000000; */
 }
 
 #memory {
-    background-color: #9b59b6;
+    /* background-color: #9b59b6; */
 }
 
 #disk {
-    background-color: #964B00;
+    /* background-color: #964B00; */
 }
 
 #backlight {
-    background-color: #90b1b1;
+    /* background-color: #90b1b1; */
 }
 
 #network {
-    background-color: #2980b9;
+    /* background-color: #2980b9; */
 }
 
 #network.disconnected {
@@ -168,8 +170,9 @@ label:focus {
 }
 
 #pulseaudio {
-    background-color: #f1c40f;
-    color: #000000;
+    /* background-color: #f1c40f; */
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    /* color: #ffffff; */
 }
 
 #pulseaudio.muted {
@@ -197,11 +200,12 @@ label:focus {
 }
 
 #custom-media.custom-vlc {
-    background-color: #ffa000;
+    /* background-color: #ffa000; */
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 #temperature {
-    background-color: #f0932b;
+    /* background-color: #f0932b; */
 }
 
 #temperature.critical {
@@ -222,7 +226,7 @@ label:focus {
 }
 
 #idle_inhibitor {
-    background-color: #2d3436;
+    /* background-color: #2d3436; */
 }
 
 #idle_inhibitor.activated {
@@ -248,16 +252,16 @@ label:focus {
 }
 
 #language {
-    background: #00b093;
-    color: #740864;
+    /* background: #00b093; */
+    /* color: #740864; */
     padding: 0 5px;
     margin: 0 5px;
     min-width: 16px;
 }
 
 #keyboard-state {
-    background: #97e1ad;
-    color: #000000;
+    /* background: #97e1ad; */
+    /* color: #000000; */
     padding: 0 0px;
     margin: 0 5px;
     min-width: 16px;
