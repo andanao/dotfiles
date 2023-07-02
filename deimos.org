@@ -1,5 +1,5 @@
-
 #+title:Deimos emacs config
+#+PROPERTY: header-args:emacs-lisp :tangle ./deimos.el :results none
 * Quick links
 #+begin_src emacs-lisp
 (ads/leader-keys
@@ -11,5 +11,20 @@
 	   (find-file "/home/adrian/.dotfiles/.config/hypr/hyprland.conf")
            :wk "Hypr Config")
    )
+
+#+end_src
+* Restart Waybar
+Restart waybar after saving
+#+begin_src emacs-lisp
+(defun deimos/reload-waybar ()
+  (when
+    (string-match-p "/home/adrian/.dotfiles/.config/waybar/" buffer-file-name)
+    (message "reload waybar")
+    (setq temp shell-command-dont-erase-buffer)
+    (setq shell-command-dont-erase-buffer "erase")
+    (call-process-shell-command "killall waybar; waybar &" )
+    (setq shell-command-dont-erase-buffer temp)
+    ))
+(add-hook 'after-save-hook 'deimos/reload-waybar)
 
 #+end_src
