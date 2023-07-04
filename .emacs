@@ -27,7 +27,7 @@
  '(org-icalendar-include-todo 'all)
  '(org-icalendar-store-UID t)
  '(package-selected-packages
-   '(ranger dired-ranger dired-git-info undo-tree dired-async ahk-mode jupyter quelpa tiny lsp-python-ms pdf-tools dap-mode lsp-ivy lsp-treemacs lsp-ui lsp-mode org-appear emojify org-download magit counsel-projectile projectile visual-fill-column org-bullets hydra helpful ivy-rich counsel which-key doom-modeline all-the-icons doom-themes undo-fu evil-collection evil general rainbow-delimiters use-package)))
+   '(rainbow-mode ranger dired-ranger dired-git-info undo-tree dired-async ahk-mode jupyter quelpa tiny lsp-python-ms pdf-tools dap-mode lsp-ivy lsp-treemacs lsp-ui lsp-mode org-appear emojify org-download magit counsel-projectile projectile visual-fill-column org-bullets hydra helpful ivy-rich counsel which-key doom-modeline all-the-icons doom-themes undo-fu evil-collection evil general rainbow-delimiters use-package)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
