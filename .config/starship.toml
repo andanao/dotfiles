@@ -1,0 +1,4 @@
+
+[cmd_duration]
+min_time = 10000
+format = '[$duration](bold yellow)'
