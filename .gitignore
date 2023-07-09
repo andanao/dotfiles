@@ -6,3 +6,5 @@
 /.config/mimeapps.list
 /deimos.el
 /.config/spotify/
+/.config/ibus/
+/.config/fcitx/
