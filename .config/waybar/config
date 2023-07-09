@@ -10,7 +10,9 @@
 			"wlr/scratchpad",
 			"custom/media"
 			],
-    "modules-center": [],
+    "modules-center": [
+			"clock",
+    ],
     "modules-right": [
 			"idle_inhibitor",
 			"pulseaudio",

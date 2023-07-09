@@ -1,7 +1,7 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: Fira Code Nerd Font, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 window#waybar {
@@ -109,6 +109,8 @@ button:hover {
 }
 
 #clock {
+    font-weight: 500;
+    font-size: 15;
     /* background-color: #64727D; */
 }
 
