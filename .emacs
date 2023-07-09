@@ -13,7 +13,9 @@
 
 (setq debug-on-error t)
 
-(load-file (concat ads/user-dir-emacs "init.el"))
+(require 'org)
+;;(load-file (concat ads/user-dir-emacs "init.el"))
+(org-babel-load-file (concat ads/user-dir-emacs "readme.org"))
 (org-babel-load-file "/home/adrian/.dotfiles/deimos.org")
 
 (setq debug-on-error nil)
