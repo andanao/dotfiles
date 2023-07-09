@@ -21,9 +21,7 @@
 			"memory",
 			"backlight",
 			"keyboard-state",
-			"wlr/language",
 			"battery",
-			"clock",
 			"tray",
 			],
 
