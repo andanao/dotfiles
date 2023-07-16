@@ -12,3 +12,5 @@ PS1='[\u@\h \W]\$ '
 . ~/.config/zsh/deimos.sh
 . ~/.config/aliases/general.sh
 . ~/.config/aliases/arch.sh
+
+export PATH="$PATH:/home/adrian/.local/bin"

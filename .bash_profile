@@ -13,3 +13,5 @@ GLFW_IM_MODULE=ibus
 neofetch
 
 Hyprland
+
+export PATH="$PATH:/home/adrian/.local/bin"
