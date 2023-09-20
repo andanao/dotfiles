@@ -5,8 +5,8 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-			"wlr/workspaces",
-			"wlr/mode",
+			"hyprland/workspaces",
+			"hyprland/mode",
 			"custom/media"
 			],
 
@@ -29,8 +29,8 @@
         "format": "<span style=\"italic\">{}</span>"
     },
 
-    "wlr/workspaces": {
-     "format": "{icon}",
+    "hyprland/workspaces": {
+     "format": "{name}",
      "on-scroll-up": "hyprctl dispatch workspace e+1",
      "on-scroll-down": "hyprctl dispatch workspace e-1",
      "on-click": "activate"
