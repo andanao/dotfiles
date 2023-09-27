@@ -11,7 +11,7 @@ export QT_IM_MODULE=fcitx
 GLFW_IM_MODULE=ibus
 
 neofetch
-
+udiskie --no-notify &
 Hyprland
 
 export PATH="$PATH:/home/adrian/.local/bin"
